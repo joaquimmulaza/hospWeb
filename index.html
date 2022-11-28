@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Web</title>
+
+    <script src="js/all.js"></script>
+    <script src="js/typed.min.js"></script>
+
+    <!-- custom css file link  -->
+   
+    <!--jquery ui files-->
+    <link type="text/css" rel="stylesheet" href="css/jquery-ui.structure.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/jquery-ui.theme.min.css" />
+
+    <!--owl carousel-->
+    <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<!-- CABEÇARIO / MENU -->
+
+<header>
+    <div id="img"><a href="index.html"><img src="img/logo.png" alt="logo" id="logoImg"></a></div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#services">Nossos Serviços</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="containerH">
+    <div class="item1">
+        <img src="img/fundo10.jpg" alt="medicos" id="imgFundo">
+    </div>
+    <div class="item2">
+        <h1 class="typing"></h1>
+        <!-- <p class="texto">Marcar uma consulta nunca foi tão fácil!</p> -->
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" style="height: 30em; border-radius: 8px; border: 1px solid #1e8fff75;">
+              <div class="carousel-item h-100 active" style="background-image: url(img/mob.png); background-size: contain; background-repeat: no-repeat; background-position: center;">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 style="color: #DB7E91; position: relative; bottom: 9px; font-weight: 800;">Marcação online</h3>
+                  <p class="texto">Marcar uma consulta nunca foi tão fácil!</p>
+                </div>
+              </div>
+              <div class="carousel-item h-100" style="background-image: url(img/car2.jpg); background-size: contain;" >
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 style="color: #C8592B;">Evite Filas</h3>
+                  <p class="texto">Com a chegada do HospWeb podes dizer adeus as filas!</p>
+                </div>
+              </div>
+              <div class="carousel-item h-100" style="background-image: url(img/fam.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Evite deslocação</h3>
+                  <p class="texto-2">Evite sair de casa e faça a marcação no conforto do seu lar</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" style="background-color: #333; border-radius: 50%;" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" style="background-color: #333; border-radius: 50%;" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <a href="consulta.html" id="btn">Marcar consulta <i class="fas fa-calendar-days ico"></i></a>
+    </div>
+</div>
+
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+    
+    <h1 id="tituloSobre"> Avaliação <span>Clientes</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="img/pic-1.png" alt="">
+            <h3>Igor Benza</h3>
+            <div class="stars">
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star-half-alt star"></i>
+            </div>
+            <p class="text">Simples, rápido e fácil de usar recomendo garanto que não irão se arrepender!</p>
+        </div>
+
+        <div class="box">
+            <img src="img/pic-2.jpg" alt="">
+            <h3>Stela Carvalho</h3>
+            <div class="stars">
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star-half-alt star"></i>
+            </div>
+            <p class="text">Interface amigável sem burocracia nem anuncios, se quiser evitar filas super recomendo a HospWeb!</p>
+        </div>
+
+        <div class="box">
+            <img src="img/pic-3.png" alt="">
+            <h3>Benvindo Magalhães</h3>
+            <div class="stars">
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star star"></i>
+                <i class="fas fa-star-half-alt star"></i>
+            </div>
+            <p class="text">Gostei bastante da usabilidade facilita e evita se deslocar posso marcar a minha consulta no conforto de casa.</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="services" id="services">
+
+    <h1 id="tituloSobre"> Nossos <span>Serviços</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-notes-medical icoServices"></i>
+            <h3>Checkups</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-ambulance icoServices"></i>
+            <h3>24/7 Ambulancia</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-user-md icoServices"></i>
+            <h3>Médicos Especialistas</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-pills icoServices"></i>
+            <h3>Medicamentos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-procedures icoServices"></i>
+            <h3>Camas Confortaveis</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-heartbeat icoServices" icoServices></i>
+            <h3>Cuidado Total</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, omnis.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- SECÇÃO SOBRE -->
+
+<section class="sobre">
+    <h2 id="tituloSobre"><span id="sobre">Sobre</span> Nós </h2>
+    
+    <div id="about">
+        <div id="aboutImg">
+            <img src="img/sobreImg.jpg" alt="medicos">
+        </div>
+       
+        <div class="descricao">
+            <p>
+                A excelência dos nossos serviços é uma caracteristica distintitiva, que nos acompanha e que determina uma constante capacidade de autoavaliação e procura de melhoria.
+            </p>
+        </div>
+    </div>
+</section>
+</main>
+
+<!-- FOOTER -->
+
+<footer id="contacto">
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+        <div class="boxFooter">
+                <div class="footer_col">
+                    <h4>Contate-nos</h4>
+                        <a class="linkCo" href="#"><i class="fas fa-phone"></i> +244923236680</a>
+                        <a class="linkCo" href="#"><i class="fas fa-phone"></i> +244936420139</a>
+                        <a class="linkCo" href="mailto:joaquimmulazadev@gmail.com"><i class="fas fa-envelope"></i> joaquimmulazadev@gmail.com</a>
+                        <a class="linkCo" href="mailto:elisa.trifanica@gmail.com"><i class="fas fa-envelope"></i> elisa.trifanica@gmail.com</a>
+                </div>
+                
+                <div class="social_icon footer_col">
+                    <h4>Rede social</h4>
+                        <a href="http://facebook.com/elisinha.reis" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a href="http://instagram.com/elisinhareis" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="http://twitter.com/JoaquimMulaza" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/joaquim-mulaza/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+        </div>
+    <p>&copy;2022 Elisinha Reis & Joaquim Mulaza | All Rights Reserved</p>
+</footer>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

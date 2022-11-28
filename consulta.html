@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcar consulta</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div id="img"><a href="index.html"><img src="img/logo.png" alt="logo" id="logoImg"></a></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="index.html">Nossos Serviços</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="form">
+        <form action="">
+            <h1>Marcar consulta</h1>
+            <input type="text" placeholder="Digite o seu nome:" checked><br>
+            <input type="number" placeholder="Digite a sua idade:" checked><br>
+            <input type="text" name="emailTelefone" id="" placeholder="Email ou Telefone"><br>
+
+            <div class="consultas">
+                <label for="categoria">Selecionar consulta</label><br>
+                <select name="consultas" id="categoria"><br>
+                    <option value="sangue">Exame de Sangue</option>
+                    <option value="urina">Exame de Urina</option>
+                    <option value="ultrassom">Ultrassom das Mamas</option>
+                    <option value="ultrassom">Ultrassom Intravaginal</option>
+                    <optgroup label="Radiologia">
+                        <option>Raio X</option>
+                        <option>Tomografia Computadorizada</option>
+                        <option value="">Densitometria Óssea</option>
+                        <option value="">Ressonância Magnética</option>
+                      </optgroup>
+                </select>
+            </div>
+            <textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="Descreva os teus sintomas:"></textarea>
+            <button type="submit" id="btnMarcar">Marcar</button>
+        </form>
+    </div>
+
+    <script>
+        function alertar(){
+            alert("Obrigado pela sua marcação, entraremos em contacto apartir dos seus terminais.")
+            
+        }
+        var msg = window.document.getElementById('btnMarcar')
+        msg.addEventListener('click', alertar)     
+    </script>
+</body>
+</html>
